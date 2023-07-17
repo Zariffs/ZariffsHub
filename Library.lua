@@ -1,7 +1,3 @@
--- Modified support for Krnl and others
-
---LIBRARY START
---Services
 getgenv().runService = game:GetService"RunService"
 getgenv().textService = game:GetService"TextService"
 getgenv().inputService = game:GetService"UserInputService"
@@ -2707,5 +2703,3 @@ local function promptLib()
         return Prompt,Screen
     end
 end 
-
---LIBRARY END
